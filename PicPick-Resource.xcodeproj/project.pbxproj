@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B32BB9482B5B5E5D000350DE /* PicPick_Resource.h in Headers */ = {isa = PBXBuildFile; fileRef = B32BB9472B5B5E5D000350DE /* PicPick_Resource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B32BB94F2B5B5E6C000350DE /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB94E2B5B5E6C000350DE /* R.swift */; };
+		B32BB9522B5B5E96000350DE /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32BB9512B5B5E96000350DE /* Color.xcassets */; };
+		B32BB9542B5B5EB0000350DE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB9532B5B5EB0000350DE /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B32BB9442B5B5E5D000350DE /* PicPick_Resource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PicPick_Resource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32BB9472B5B5E5D000350DE /* PicPick_Resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicPick_Resource.h; sourceTree = "<group>"; };
+		B32BB94E2B5B5E6C000350DE /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
+		B32BB9512B5B5E96000350DE /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		B32BB9532B5B5EB0000350DE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +51,20 @@
 		B32BB9462B5B5E5D000350DE /* PicPick-Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B32BB9502B5B5E87000350DE /* Color */,
 				B32BB9472B5B5E5D000350DE /* PicPick_Resource.h */,
+				B32BB94E2B5B5E6C000350DE /* R.swift */,
 			);
 			path = "PicPick-Resource";
+			sourceTree = "<group>";
+		};
+		B32BB9502B5B5E87000350DE /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				B32BB9512B5B5E96000350DE /* Color.xcassets */,
+				B32BB9532B5B5EB0000350DE /* UIColor+Extension.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +110,7 @@
 				TargetAttributes = {
 					B32BB9432B5B5E5D000350DE = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -119,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32BB9522B5B5E96000350DE /* Color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32BB94F2B5B5E6C000350DE /* R.swift in Sources */,
+				B32BB9542B5B5EB0000350DE /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -248,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -263,6 +284,7 @@
 		B32BB94C2B5B5E5D000350DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -286,6 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,6 +317,7 @@
 		B32BB94D2B5B5E5D000350DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
