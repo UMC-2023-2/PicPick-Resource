@@ -11,6 +11,8 @@
 		B32BB94F2B5B5E6C000350DE /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB94E2B5B5E6C000350DE /* R.swift */; };
 		B32BB9522B5B5E96000350DE /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32BB9512B5B5E96000350DE /* Color.xcassets */; };
 		B32BB9542B5B5EB0000350DE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32BB9532B5B5EB0000350DE /* UIColor+Extension.swift */; };
+		B3650CC12B641E6A00E95272 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3650CC02B641E6A00E95272 /* Image.xcassets */; };
+		B3650CC32B64247A00E95272 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3650CC22B64247A00E95272 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B32BB94E2B5B5E6C000350DE /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
 		B32BB9512B5B5E96000350DE /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		B32BB9532B5B5EB0000350DE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B3650CC02B641E6A00E95272 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		B3650CC22B64247A00E95272 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		B32BB9462B5B5E5D000350DE /* PicPick-Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B3650CBF2B641E5000E95272 /* Image */,
 				B32BB9502B5B5E87000350DE /* Color */,
 				B32BB9472B5B5E5D000350DE /* PicPick_Resource.h */,
 				B32BB94E2B5B5E6C000350DE /* R.swift */,
@@ -65,6 +70,15 @@
 				B32BB9532B5B5EB0000350DE /* UIColor+Extension.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		B3650CBF2B641E5000E95272 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B3650CC02B641E6A00E95272 /* Image.xcassets */,
+				B3650CC22B64247A00E95272 /* UIImage+Extension.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B32BB9522B5B5E96000350DE /* Color.xcassets in Resources */,
+				B3650CC12B641E6A00E95272 /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3650CC32B64247A00E95272 /* UIImage+Extension.swift in Sources */,
 				B32BB94F2B5B5E6C000350DE /* R.swift in Sources */,
 				B32BB9542B5B5EB0000350DE /* UIColor+Extension.swift in Sources */,
 			);
