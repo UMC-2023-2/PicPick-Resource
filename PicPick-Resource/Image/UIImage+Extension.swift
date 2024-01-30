@@ -13,6 +13,9 @@ public extension R {
 
 public extension R.Image {
     static var imgWelcomeBackground: UIImage { .load(name: "WelcomeBackground") }
+    static var icoNavLineArrowLeft: UIImage { .load(name: "icoNavLineArrowLeft") }
+    static var icoEye: UIImage { .load(name: "icoEye") }
+    static var icoEyeHide: UIImage { .load(name: "icoEyeHide") }
 }
 
 extension UIImage {
