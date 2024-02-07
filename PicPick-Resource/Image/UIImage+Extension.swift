@@ -16,6 +16,8 @@ public extension R.Image {
     static var icoNavLineArrowLeft: UIImage { .load(name: "icoNavLineArrowLeft") }
     static var icoEye: UIImage { .load(name: "icoEye") }
     static var icoEyeHide: UIImage { .load(name: "icoEyeHide") }
+    static var icoBtnClose32: UIImage { .load(name: "icoBtnClose32") }
+    static var icoBtnLineArrowRight32: UIImage { .load(name: "icoBtnLineArrowRight32") }
 }
 
 extension UIImage {
