@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icoHeartEn24.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

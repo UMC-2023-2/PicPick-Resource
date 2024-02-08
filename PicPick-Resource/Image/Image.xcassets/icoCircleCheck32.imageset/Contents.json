@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icoCircleCheck32.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
