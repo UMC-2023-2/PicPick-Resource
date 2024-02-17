@@ -26,6 +26,10 @@ public extension R.Color {
     static var systemBlack: UIColor { .load(name: "System/Black") }
     static var systemWhite: UIColor { .load(name: "System/White") }
     static var systemRed: UIColor { .load(name: "System/Red") }
+    
+    static var dimdLight: UIColor { .load(name: "Dimd/Light") }
+    static var dimdNormal: UIColor { .load(name: "Dimd/Normal") }
+    static var dimdDark: UIColor { .load(name: "Dimd/Dark") }
 }
 
 extension UIColor {

@@ -13,6 +13,7 @@ public extension R {
 
 public extension R.Image {
     static var imgWelcomeBackground: UIImage { .load(name: "WelcomeBackground") }
+    static var profileInfoContent: UIImage { .load(name: "profileInfoContent") }
     static var icoArrowDown24: UIImage { .load(name: "icoArrowDown24") }
     static var icoArrowRight14: UIImage { .load(name: "icoArrowRight14") }
     static var icoBtnClose32: UIImage { .load(name: "icoBtnClose32") }
@@ -27,6 +28,7 @@ public extension R.Image {
     static var icoClose24: UIImage { .load(name: "icoClose24") }
     static var icoClose32: UIImage { .load(name: "icoClose32") }
     static var icoCut24: UIImage { .load(name: "icoCut24") }
+    static var icoEdit22: UIImage { .load(name: "icoEdit22") }
     static var icoEye24: UIImage { .load(name: "icoEye24") }
     static var icoEyeHide24: UIImage { .load(name: "icoEyeHide24") }
     static var icoFeed30: UIImage { .load(name: "icoFeed30") }
